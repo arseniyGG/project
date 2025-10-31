@@ -1,13 +1,14 @@
 import logo from './imgs/logo.png';
+import Button from './Button';
 
 export default function Header() {
     return (
         <div className='header'>
             <img className="logo" src={logo} alt='logo'></img>
             <nav className='headerButtons'>
-                <button className='headerButton' id='f'><a href='#'>Обувь</a></button>
-                <button className='headerButton' id='s'><a href='#'>Одежда</a></button>
-                <button className='headerButton' id='t'><a href='#'>Распродажа</a></button>
+                <Button caption={'Обувь'}/>
+                <Button caption={'Одежда'}/>
+                <Button caption={'Распродажа'}/>
             </nav>
             <button className='headerSearch'>Поиск</button>
         </div>
