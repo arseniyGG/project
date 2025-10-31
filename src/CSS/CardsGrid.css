@@ -1,0 +1,14 @@
+.cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 100px;
+    row-gap: 150px;
+    column-gap: 10px;
+}
+
+@media (max-width: 1780px) {
+    .cardsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,41 @@
+img {
+    max-block-size: 75%;
+}
+
+.card {
+    max-block-size:500px;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.name {
+    text-align: center;
+}
+
+.total {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cardButton {
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: border-color 0.3s ease;
+}
+
+.cardButton:hover {
+    border-color: #a78b55;
+    transition: border-color 0.3s ease;
+}
