@@ -65,14 +65,14 @@ export const data =
     }],
     "clothes": [
         {
-            "id": 1,
-            "imgLink": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/108588/03/sv01/fnd/PNA/fmt/png/FUTURE-8-PRO-Firm/Artificial-Ground-Soccer-Cleats",
-            "name": "FUTURE 8 PRO",
+            "id": 10,
+            "imgLink": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/311306/01/sv01/fnd/PNA/fmt/png/MB.04-Golden-Child-Men's-Basketball-Shoes",
+            "name": "MB.04 Golden Child",
             "currency": "$",
-            "price": "140.00"
+            "price": "125.00"
         },
         {
-            "id": 2,
+            "id": 11,
             "imgLink": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/108781/01/sv01/fnd/PNA/fmt/png/ULTRA-6-MATCH-Christian-Pulisic-Men's-Firm/Artificial-Ground-Soccer-Cleats",
             "name": "ULTRA 6 MATCH Christian Pulisic",
             "currency": "$",
@@ -81,7 +81,7 @@ export const data =
     ],
     "sale": [
         {
-            "id": 1,
+            "id": 12,
             "imgLink": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_500,h_500/global/108588/03/sv01/fnd/PNA/fmt/png/FUTURE-8-PRO-Firm/Artificial-Ground-Soccer-Cleats",
             "name": "FUTURE 8 PRO",
             "currency": "$",
