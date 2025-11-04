@@ -1,36 +1,31 @@
 import { useState } from 'react';
 import Header from './Header';
 import CardsGrid from './CardsGrid';
-import { data } from './data.js'
+import { findData } from './data.js'
 import CardDetails from './CardDetails.js';
 
 function App() {
-  const [cards, setCards] = useState(data.shoes)
+  const [cards, setCards] = useState(findData("category", "shoes"));
 
   function handleMenuClick(event) {
-    const newCards = data[event.target.id];
+    const newCards = findData("category", event.target.id);
     setCards(newCards);
   }
 
   function handleDetailsClick(event) {
-    const newCard = cards.filter(card =>
-      card.id === Number(event.target.id)
-    );
+    const newCard = findData("id", event.target.id);
     setCards(newCard[0]);
   }
 
-  if (Array.isArray(cards)) {
-    return (
-      <>
-        <Header handleMenuClick={handleMenuClick} />
-        <CardsGrid cards={cards} handleDetailsClick={handleDetailsClick} />
-      </>
-    );
+  function defineEl() {
+    if (Array.isArray(cards)) return <CardsGrid cards={cards} handleDetailsClick={handleDetailsClick} />
+    return <CardDetails cards={cards} />
   }
+
   return (
     <>
       <Header handleMenuClick={handleMenuClick} />
-      <CardDetails cards={cards} />
+      {defineEl()}
     </>
   );
 }
