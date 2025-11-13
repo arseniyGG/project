@@ -1,12 +1,14 @@
-img {
+.cardImg {
     max-block-size: 75%;
+    border-top-left-radius: 29px;
+    border-top-right-radius: 29px;
 }
 
 .card {
-    max-block-size:500px;
+    max-block-size: 500px;
     border: 1px solid;
     border-radius: 30px;
-    padding: 20px;
+    padding: 0px 0px 20px 0px;
 }
 
 .cardInfo {
@@ -19,6 +21,7 @@ img {
 }
 
 .name {
+    margin-top: 10px;
     text-align: center;
 }
 

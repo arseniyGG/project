@@ -1,0 +1,71 @@
+.details {
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+
+.carouselBlock {
+    width: 600px;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 735px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    gap: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 16px 0px 16px 0px;
+}
+
+.featuresBenefits {
+    margin-top: 10px;
+}
+
+.unimportantDetails {
+    margin-top: 10px;
+}
+
+.materialsCare {
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.addToCart {
+    padding: 10px;
+    max-width: 200px;
+    border: none;
+    background-color: #191919;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.like {
+    border: 1px solid #a1a8af;
+}
